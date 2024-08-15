@@ -1,0 +1,33 @@
+name: Update Medium Articles
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # This runs the workflow every day at midnight
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Requests
+        run: pip install requests
+
+      - name: Fetch Medium Articles
+        run: python fetch_medium_articles.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Update Medium articles"
+          git push
