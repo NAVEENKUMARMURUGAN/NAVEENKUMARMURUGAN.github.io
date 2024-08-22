@@ -1,5 +1,10 @@
 [
   {
+    "title": "Essential Linux Tools Every Data Engineer Should Know: dd, scp, setacl, and mailx",
+    "link": "https://blog.det.life/essential-linux-tools-every-data-engineer-should-know-dd-scp-setacl-and-mailx-cbcb82c7ae02?source=rss-9466af382d74------2",
+    "date": "2024-08-21 09:32:11"
+  },
+  {
     "title": "Ditch Resume - Build &amp; Deploy A Portfolio Website For Free In Minutes",
     "link": "https://blog.devgenius.io/ditch-resume-build-deploy-a-portfolio-website-for-free-in-minutes-abdebf12ebe4?source=rss-9466af382d74------2",
     "date": "2024-08-10 11:24:37"
@@ -43,10 +48,5 @@
     "title": ".gitignore: Everything you need to know",
     "link": "https://levelup.gitconnected.com/gitignore-everything-you-need-to-know-65948962598a?source=rss-9466af382d74------2",
     "date": "2024-03-20 11:23:36"
-  },
-  {
-    "title": "Build cloud Architecture Diagrams in 1 Minute (This Tool is Crazy Fast!)",
-    "link": "https://levelup.gitconnected.com/build-cloud-architecture-diagrams-in-1-minute-this-tool-is-crazy-fast-c4b4561d4c6a?source=rss-9466af382d74------2",
-    "date": "2024-01-22 00:32:53"
   }
 ]
