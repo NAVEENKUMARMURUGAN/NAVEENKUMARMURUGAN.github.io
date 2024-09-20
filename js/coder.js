@@ -95,3 +95,44 @@ function setTheme(theme) {
 function rememberTheme(theme) {
     localStorage.setItem('colorscheme', theme);
 }
+
+async function askQuestion(question) {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer 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`,  // Replace with your actual API key
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            model: "gpt-3.5-turbo",  // Ensure the model name is correct
+            prompt: question,
+            max_tokens: 50,  // Set a reasonable max_tokens value
+            temperature: 0.7  // Optional: Adjust temperature for creativity
+        })
+    });
+
+    if (response.ok) {
+        const data = await response.json();
+        
+        // Add a check to ensure 'choices' is defined and has at least one element
+        if (data.choices && data.choices.length > 0) {
+            return data.choices[0].text.trim();
+        } else {
+            console.error('Unexpected API response structure:', data);
+            return 'Sorry, I could not process your request.';
+        }
+    } else {
+        console.error('API error:', response.status, response.statusText);
+        return 'Sorry, something went wrong.';
+    }
+}
+
+document.getElementById('submitBtn').addEventListener('click', async () => {
+    const question = document.getElementById('questionInput').value;
+    if (question) {
+        document.getElementById('chatWindow').innerHTML += `<p><strong>You:</strong> ${question}</p>`;
+        const answer = await askQuestion(question);
+        document.getElementById('chatWindow').innerHTML += `<p><strong>Naveen:</strong> ${answer}</p>`;
+        document.getElementById('questionInput').value = '';  // Clear input field
+    }
+});

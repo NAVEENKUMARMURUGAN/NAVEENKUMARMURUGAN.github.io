@@ -305,6 +305,29 @@ template {
 [hidden] {
   display: none; }
 
+#chatContainer {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 300px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white; }
+
+#chatWindow {
+  height: 200px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px; }
+
+#questionInput {
+  width: 80%;
+  padding: 5px; }
+
+#submitBtn {
+  width: 15%;
+  padding: 5px; }
+
 /*!
  * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
