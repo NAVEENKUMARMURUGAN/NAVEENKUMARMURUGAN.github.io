@@ -1,5 +1,10 @@
 [
   {
+    "title": "Detailing the Retrieval-Augmented Generation(RAG) In My Way!",
+    "link": "https://levelup.gitconnected.com/detailing-the-retrieval-augmented-generation-rag-in-my-way-a3188bd0b8d4?source=rss-9466af382d74------2",
+    "date": "2024-10-02 13:03:27"
+  },
+  {
     "title": "Ditch Paid LLMs, run LLMs on your local machine for free!",
     "link": "https://levelup.gitconnected.com/ditch-paid-llms-run-llms-on-your-local-machine-for-free-6c1233c4cbca?source=rss-9466af382d74------2",
     "date": "2024-09-22 02:28:42"
@@ -43,10 +48,5 @@
     "title": "Have your coffee with this 3 minute article on AWS Secret Manager!",
     "link": "https://levelup.gitconnected.com/have-your-coffee-with-this-2-minute-article-on-aws-secret-manager-ea634a352cdd?source=rss-9466af382d74------2",
     "date": "2024-07-18 12:06:39"
-  },
-  {
-    "title": "Setup Airflow in 2 minutes (Just 3 CLI commands away)",
-    "link": "https://levelup.gitconnected.com/setup-airflow-in-2-minutes-just-3-steps-ec715555f647?source=rss-9466af382d74------2",
-    "date": "2024-07-17 00:04:09"
   }
 ]
