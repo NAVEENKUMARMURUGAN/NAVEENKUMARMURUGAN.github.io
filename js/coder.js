@@ -113,8 +113,8 @@ async function askQuestion(question) {
         const data = await response.json();
         
         // Add a check to ensure 'choices' is defined and has at least one element
-        if (data.choices && data.choices.length > 0) {
-            return data.choices[0].text.trim();
+        if (data.text && data.text.length > 0) {
+            return data.text.trim();
         } else {
             console.error('Unexpected API response structure:', data);
             return 'Sorry, I could not process your request.';
