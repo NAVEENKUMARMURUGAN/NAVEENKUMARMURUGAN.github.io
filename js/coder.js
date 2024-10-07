@@ -102,7 +102,7 @@ async function askQuestion(question) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Apikey': 'Api-Key NNJ4yqny.SLznirOPgDl9CO8YBl5fFYUth6S5ZMmk  // Replace <API_KEY> with your actual API key
+            'Apikey': 'Api-Key NNJ4yqny.SLznirOPgDl9CO8YBl5fFYUth6S5ZMmk'  // Replace <API_KEY> with your actual API key
         },
         body: JSON.stringify({
             payload: question  // Replace with your actual data
