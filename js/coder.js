@@ -98,7 +98,7 @@ function rememberTheme(theme) {
 
 async function askQuestion(question) {
 
-    const response = await fetch('https://payload.vextapp.com/hook/AK1T00ZYHN/catch/$(channel_token)', {
+    const response = await fetch('https://payload.vextapp.com/hook/AK1T00ZYHN/catch/nkthemaster', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
