@@ -97,17 +97,15 @@ function rememberTheme(theme) {
 }
 
 async function askQuestion(question) {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+
+    const response = await fetch('https://payload.vextapp.com/hook/AK1T00ZYHN/catch/$(channel_token)', {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer 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`,  // Replace with your actual API key
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Apikey': 'Api-Key NNJ4yqny.SLznirOPgDl9CO8YBl5fFYUth6S5ZMmk  // Replace <API_KEY> with your actual API key
         },
         body: JSON.stringify({
-            model: "gpt-3.5-turbo",  // Ensure the model name is correct
-            prompt: question,
-            max_tokens: 50,  // Set a reasonable max_tokens value
-            temperature: 0.7  // Optional: Adjust temperature for creativity
+            payload: question  // Replace with your actual data
         })
     });
 
