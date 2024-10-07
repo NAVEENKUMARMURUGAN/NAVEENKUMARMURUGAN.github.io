@@ -130,7 +130,7 @@ document.getElementById('submitBtn').addEventListener('click', async () => {
     if (question) {
         document.getElementById('chatWindow').innerHTML += `<p><strong>You:</strong> ${question}</p>`;
         const answer = await askQuestion(question);
-        document.getElementById('chatWindow').innerHTML += `<p><strong>Naveen:</strong> ${answer}</p>`;
+        document.getElementById('chatWindow').innerHTML += `<p><strong>Naveen's AI Assitant:</strong> ${answer}</p>`;
         document.getElementById('questionInput').value = '';  // Clear input field
     }
 });
