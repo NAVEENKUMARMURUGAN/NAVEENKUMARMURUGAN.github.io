@@ -1,5 +1,10 @@
 [
   {
+    "title": "That one tricky SQL question, I ask in every interview",
+    "link": "https://levelup.gitconnected.com/that-one-tricky-sql-question-i-ask-in-every-interview-a8930c0ff9ec?source=rss-9466af382d74------2",
+    "date": "2024-10-07 05:51:50"
+  },
+  {
     "title": "Detailing the Retrieval-Augmented Generation(RAG) In My Way!",
     "link": "https://levelup.gitconnected.com/detailing-the-retrieval-augmented-generation-rag-in-my-way-a3188bd0b8d4?source=rss-9466af382d74------2",
     "date": "2024-10-02 13:03:27"
@@ -43,10 +48,5 @@
     "title": "Mastering AWS: Unveiling the 6 Pillars of Well-Architected Framework",
     "link": "https://levelup.gitconnected.com/mastering-aws-unveiling-the-6-pillars-of-well-architected-framework-b004619d08e5?source=rss-9466af382d74------2",
     "date": "2024-07-21 04:38:17"
-  },
-  {
-    "title": "Have your coffee with this 3 minute article on AWS Secret Manager!",
-    "link": "https://levelup.gitconnected.com/have-your-coffee-with-this-2-minute-article-on-aws-secret-manager-ea634a352cdd?source=rss-9466af382d74------2",
-    "date": "2024-07-18 12:06:39"
   }
 ]
