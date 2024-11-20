@@ -1,5 +1,10 @@
 [
   {
+    "title": "How would you handle a underperforming team member?",
+    "link": "https://medium.com/@naveenkumarmurugan/how-would-you-handle-a-underperforming-team-member-bd66d2850d4e?source=rss-9466af382d74------2",
+    "date": "2024-11-19 03:20:59"
+  },
+  {
     "title": "I\u2019ve Vastly Misunderstood the Single Responsibility Principle!",
     "link": "https://levelup.gitconnected.com/ive-vastly-misunderstood-the-single-responsibility-principle-cf7df777ac9a?source=rss-9466af382d74------2",
     "date": "2024-10-23 11:41:09"
@@ -43,10 +48,5 @@
     "title": "That One SQL question, I ask in Every Interview(Just for fun)",
     "link": "https://levelup.gitconnected.com/that-one-optional-sql-question-i-ask-in-every-interview-just-for-fun-dcc41eafb2cd?source=rss-9466af382d74------2",
     "date": "2024-08-04 09:42:39"
-  },
-  {
-    "title": "Kinesis Data Streams",
-    "link": "https://blog.devgenius.io/dont-go-to-aws-data-engineering-associate-exam-without-knowing-these-kinesis-data-streams-10d6389929c3?source=rss-9466af382d74------2",
-    "date": "2024-08-04 02:59:26"
   }
 ]
