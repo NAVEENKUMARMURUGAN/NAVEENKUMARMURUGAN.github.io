@@ -1,5 +1,10 @@
 [
   {
+    "title": "How do you load large file (1TB) to Redshift cost effectively?",
+    "link": "https://medium.com/@naveenkumarmurugan/how-do-you-load-large-file-1tb-to-redshift-cost-effectively-3b767e26de26?source=rss-9466af382d74------2",
+    "date": "2024-12-29 06:00:29"
+  },
+  {
     "title": "Zero Effort SQL Formatting: Let Git Pre-commit Hooks Do the Work",
     "link": "https://levelup.gitconnected.com/zero-effort-sql-formatting-let-git-pre-commit-hooks-do-the-work-5cf044678bc5?source=rss-9466af382d74------2",
     "date": "2024-12-21 02:01:56"
@@ -43,10 +48,5 @@
     "title": "Essential Linux Commands Every Data Engineer Should Know: dd, scp, setacl, and mailx",
     "link": "https://blog.det.life/essential-linux-tools-every-data-engineer-should-know-dd-scp-setacl-and-mailx-cbcb82c7ae02?source=rss-9466af382d74------2",
     "date": "2024-08-21 09:32:11"
-  },
-  {
-    "title": "Ditch Resume - Build &amp; Deploy A Portfolio Website For Free In Minutes",
-    "link": "https://medium.com/@naveenkumarmurugan/ditch-resume-build-deploy-a-portfolio-website-for-free-in-minutes-abdebf12ebe4?source=rss-9466af382d74------2",
-    "date": "2024-08-10 11:24:37"
   }
 ]
