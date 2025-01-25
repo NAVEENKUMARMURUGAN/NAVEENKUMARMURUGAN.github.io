@@ -1,0 +1,144 @@
+/* Chat container */
+#chatWindow {
+  width: 350px;
+  height: 500px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  background-color: var(--bg);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Lato", sans-serif;
+  z-index: 1000;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+  transition: all 0.3s ease;
+  max-height: 80vh;
+}
+
+/* Scrollbar styling for WebKit browsers */
+#chatWindow::-webkit-scrollbar {
+  width: 6px;
+}
+
+#chatWindow::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#chatWindow::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 3px;
+}
+
+/* Chat messages */
+#chatWindow p {
+  margin: 12px 0;
+  line-height: 1.6;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: var(--bg-secondary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s ease;
+}
+
+#chatWindow p strong {
+  color: var(--accent);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Input container */
+.chat-input-container {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 350px;
+  padding: 10px;
+  background-color: var(--bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+#questionInput {
+  width: calc(100% - 16px);
+  padding: 12px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+#questionInput:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.1);
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+}
+
+#submitBtn:hover {
+  background-color: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+#submitBtn:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  #chatWindow,
+  .chat-input-container {
+    width: calc(100% - 40px);
+    right: 20px;
+    left: 20px;
+  }
+
+  #chatWindow {
+    bottom: 140px;
+    height: 60vh;
+  }
+}
+
+/* Dark mode adjustments */
+.colorscheme-dark #chatWindow,
+.colorscheme-dark .chat-input-container {
+  background-color: var(--bg);
+  border-color: var(--border-color);
+}
+
+.colorscheme-dark #questionInput {
+  background-color: var(--bg);
+  color: var(--fg);
+  border-color: var(--border-color);
+}
+
+.colorscheme-dark #chatWindow p {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.colorscheme-dark #questionInput:focus {
+  box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.2);
+}
