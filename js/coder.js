@@ -166,20 +166,20 @@ function addMessage(role, content) {
   const name = role === "user" ? "You" : "Naveen's AI Assistant";
 
   const messageHTML = `
-        <p class="message ${role}-message" style="opacity: 0;">
-            <strong>${name}:</strong> 
-            <span class="message-content">${formattedContent}</span>
-        </p>`;
+    <p class="message ${role}-message" style="opacity: 0;">
+      <strong>${name}:</strong> 
+      <span class="message-content">${formattedContent}</span>
+    </p>`;
 
+  // Insert before the last message to maintain scroll position
   chatWindow.insertAdjacentHTML("beforeend", messageHTML);
 
   // Trigger fade-in animation
   setTimeout(() => {
     const newMessage = chatWindow.lastElementChild;
     newMessage.style.opacity = "1";
+    scrollToBottom();
   }, 10);
-
-  scrollToBottom();
 }
 
 // Handle form submission
@@ -238,4 +238,22 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     addMessage("assistant", "Hello! How can I help you today?");
   }, 500);
+
+  // Add chat header with robot icon
+  const chatWindow = document.getElementById("chatWindow");
+  const headerHTML = `
+    <div class="chat-header">
+      <div class="robot-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="10" rx="2"/>
+          <circle cx="12" cy="5" r="2"/>
+          <path d="M12 7v4"/>
+          <line x1="8" y1="16" x2="8" y2="16"/>
+          <line x1="16" y1="16" x2="16" y2="16"/>
+        </svg>
+      </div>
+      <h3>Chat with Naveen's AI Assistant</h3>
+    </div>`;
+
+  chatWindow.insertAdjacentHTML("afterbegin", headerHTML);
 });
