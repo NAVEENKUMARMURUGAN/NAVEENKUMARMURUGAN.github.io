@@ -1,52 +1,52 @@
 [
   {
+    "title": "One of the Scenario-based SQL Interview Question I ask Every Candidate (Simple yet thought\u2026",
+    "link": "https://medium.com/@naveenkumarmurugan/one-of-the-scenario-based-sql-interview-question-i-ask-every-candidate-simple-yet-thought-c8c4d156f643?source=rss-9466af382d74------2",
+    "date": "2025-01-14 12:15:51"
+  },
+  {
+    "title": "Scenario-based SQL interview Question for Experienced Professionals",
+    "link": "https://medium.com/towards-data-engineer/scenario-based-sql-interview-question-for-experienced-professionals-121720f2edf2?source=rss-9466af382d74------2",
+    "date": "2024-12-30 07:11:05"
+  },
+  {
+    "title": "Top 10 Places to Use Smilies in Blog Writing",
+    "link": "https://medium.com/towards-blogger/top-10-places-to-use-smilies-in-blog-writing-2d481bfb546e?source=rss-9466af382d74------2",
+    "date": "2024-12-30 07:08:28"
+  },
+  {
+    "title": "My fight with Claude on Big O notation O(1) Time Complexity",
+    "link": "https://medium.com/towards-data-engineer/my-fight-with-claude-on-big-o-notation-o-1-time-complexity-a11fd914e38f?source=rss-9466af382d74------2",
+    "date": "2024-12-30 06:26:30"
+  },
+  {
     "title": "How do you load large file (1TB) to Redshift cost effectively?",
-    "link": "https://medium.com/@naveenkumarmurugan/how-do-you-load-large-file-1tb-to-redshift-cost-effectively-3b767e26de26?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-data-engineer/how-do-you-load-large-file-1tb-to-redshift-cost-effectively-3b767e26de26?source=rss-9466af382d74------2",
     "date": "2024-12-29 06:00:29"
   },
   {
     "title": "Zero Effort SQL Formatting: Let Git Pre-commit Hooks Do the Work",
-    "link": "https://levelup.gitconnected.com/zero-effort-sql-formatting-let-git-pre-commit-hooks-do-the-work-5cf044678bc5?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-data-engineer/zero-effort-sql-formatting-let-git-pre-commit-hooks-do-the-work-5cf044678bc5?source=rss-9466af382d74------2",
     "date": "2024-12-21 02:01:56"
   },
   {
     "title": "How would you handle a underperforming team member?",
-    "link": "https://levelup.gitconnected.com/how-would-you-handle-a-underperforming-team-member-bd66d2850d4e?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-people-management/how-would-you-handle-a-underperforming-team-member-bd66d2850d4e?source=rss-9466af382d74------2",
     "date": "2024-11-19 03:20:59"
   },
   {
     "title": "I\u2019ve Vastly Misunderstood the Single Responsibility Principle!",
-    "link": "https://levelup.gitconnected.com/ive-vastly-misunderstood-the-single-responsibility-principle-cf7df777ac9a?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-data-engineer/ive-vastly-misunderstood-the-single-responsibility-principle-cf7df777ac9a?source=rss-9466af382d74------2",
     "date": "2024-10-23 11:41:09"
   },
   {
     "title": "That one tricky SQL question, I ask in every interview",
-    "link": "https://levelup.gitconnected.com/that-one-tricky-sql-question-i-ask-in-every-interview-a8930c0ff9ec?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-data-engineer/that-one-tricky-sql-question-i-ask-in-every-interview-a8930c0ff9ec?source=rss-9466af382d74------2",
     "date": "2024-10-07 05:51:50"
   },
   {
     "title": "Detailing the Retrieval-Augmented Generation(RAG) In My Way!",
-    "link": "https://levelup.gitconnected.com/detailing-the-retrieval-augmented-generation-rag-in-my-way-a3188bd0b8d4?source=rss-9466af382d74------2",
+    "link": "https://medium.com/towards-data-engineer/detailing-the-retrieval-augmented-generation-rag-in-my-way-a3188bd0b8d4?source=rss-9466af382d74------2",
     "date": "2024-10-02 13:03:27"
-  },
-  {
-    "title": "Ditch Paid LLMs, run LLMs on your local machine for free!",
-    "link": "https://levelup.gitconnected.com/ditch-paid-llms-run-llms-on-your-local-machine-for-free-6c1233c4cbca?source=rss-9466af382d74------2",
-    "date": "2024-09-22 02:28:42"
-  },
-  {
-    "title": "You Don\u2019t need to know everything to call yourself Gen AI Practitioner.",
-    "link": "https://levelup.gitconnected.com/you-dont-need-to-know-everything-to-call-yourself-gen-ai-practitioner-70304dc0df1a?source=rss-9466af382d74------2",
-    "date": "2024-09-20 00:19:39"
-  },
-  {
-    "title": "Meet AI Test Data Generator\u200a\u2014\u200aThe Idea that made me famous in my company",
-    "link": "https://levelup.gitconnected.com/meet-ai-test-data-generator-the-idea-that-made-me-famous-in-my-company-e20716b3c1e7?source=rss-9466af382d74------2",
-    "date": "2024-09-04 09:01:32"
-  },
-  {
-    "title": "Essential Linux Commands Every Data Engineer Should Know: dd, scp, setacl, and mailx",
-    "link": "https://blog.det.life/essential-linux-tools-every-data-engineer-should-know-dd-scp-setacl-and-mailx-cbcb82c7ae02?source=rss-9466af382d74------2",
-    "date": "2024-08-21 09:32:11"
   }
 ]
