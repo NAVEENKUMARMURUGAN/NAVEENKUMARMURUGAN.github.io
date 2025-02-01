@@ -1,5 +1,15 @@
 [
   {
+    "title": "Banking Industry Architecture Network\u200a\u2014\u200aWhat it is?",
+    "link": "https://medium.com/towards-data-engineer/banking-industry-architecture-network-what-it-is-70e9e4c9175a?source=rss-9466af382d74------2",
+    "date": "2025-01-31 22:44:19"
+  },
+  {
+    "title": "When to not create Index?",
+    "link": "https://medium.com/towards-data-engineer/when-to-not-create-index-0f573c9f9627?source=rss-9466af382d74------2",
+    "date": "2025-01-31 13:03:15"
+  },
+  {
     "title": "One of the Scenario-based SQL Interview Question I ask Every Candidate (Simple yet thought\u2026",
     "link": "https://medium.com/@naveenkumarmurugan/one-of-the-scenario-based-sql-interview-question-i-ask-every-candidate-simple-yet-thought-c8c4d156f643?source=rss-9466af382d74------2",
     "date": "2025-01-14 12:15:51"
@@ -38,15 +48,5 @@
     "title": "I\u2019ve Vastly Misunderstood the Single Responsibility Principle!",
     "link": "https://medium.com/towards-data-engineer/ive-vastly-misunderstood-the-single-responsibility-principle-cf7df777ac9a?source=rss-9466af382d74------2",
     "date": "2024-10-23 11:41:09"
-  },
-  {
-    "title": "That one tricky SQL question, I ask in every interview",
-    "link": "https://medium.com/towards-data-engineer/that-one-tricky-sql-question-i-ask-in-every-interview-a8930c0ff9ec?source=rss-9466af382d74------2",
-    "date": "2024-10-07 05:51:50"
-  },
-  {
-    "title": "Detailing the Retrieval-Augmented Generation(RAG) In My Way!",
-    "link": "https://medium.com/towards-data-engineer/detailing-the-retrieval-augmented-generation-rag-in-my-way-a3188bd0b8d4?source=rss-9466af382d74------2",
-    "date": "2024-10-02 13:03:27"
   }
 ]
