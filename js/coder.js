@@ -126,7 +126,7 @@ async function askQuestion(question) {
 function addLoadingAnimation() {
   const loadingHTML = `
         <p class="loading-message">
-            <strong>Naveen's AI Assistant:</strong>
+            <strong>Naveen's Assistant:</strong>
             <span class="loading-dots">
                 <span>.</span><span>.</span><span>.</span>
             </span>
@@ -163,7 +163,7 @@ function formatMessage(message) {
 function addMessage(role, content) {
   const chatWindow = document.getElementById("chatWindow");
   const formattedContent = formatMessage(content);
-  const name = role === "user" ? "You" : "Naveen's AI Assistant";
+  const name = role === "user" ? "You" : "Naveen's Assistant";
 
   const messageHTML = `
     <p class="message ${role}-message" style="opacity: 0;">
@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Welcome message
   setTimeout(() => {
-    addMessage("assistant", "Hello! How can I help you today?");
+    addMessage("assistant", "Hi! Ask me about my work, projects, skills, or experience.");
   }, 500);
 
   // Add chat header with robot icon
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <line x1="16" y1="16" x2="16" y2="16"/>
         </svg>
       </div>
-      <h3>Chat with Naveen's AI Assistant</h3>
+      <h3>Naveen's Assistant <span class="chip">AI</span></h3>
     </div>`;
 
   chatWindow.insertAdjacentHTML("afterbegin", headerHTML);
