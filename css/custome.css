@@ -27,7 +27,7 @@
   padding: 20px 20px 15px 20px;
   overflow-y: auto;
   position: fixed;
-  bottom: 80px;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 120px);
   right: 30px;
   background-color: var(--bg);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -74,7 +74,7 @@
 /* Input container */
 .chat-input-container {
   position: fixed;
-  bottom: 20px;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
   right: 30px;
   width: 350px;
   padding: 10px;
@@ -84,6 +84,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  z-index: 9999;
 }
 
 #questionInput {
@@ -102,6 +103,11 @@
 #questionInput:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.1);
+}
+
+#questionInput::placeholder {
+  color: var(--fg);
+  opacity: 0.65;
 }
 
 #submitBtn {
