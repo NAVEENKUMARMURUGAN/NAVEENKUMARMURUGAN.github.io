@@ -66557,7 +66557,7 @@ function UH() {
             className:
               "text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed opacity-0",
             children:
-              "Results-driven Staff Data Engineer with 15+ years of IT experience and 8+ years in Big Data & Cloud technologies. Expert in Spark, Kafka, AWS, and building scalable data pipelines.",
+              "Results-driven Staff Data Engineer with 15+ years of IT experience and 11+ years in Big Data & Cloud technologies. Expert in Spark, Kafka, AWS, and building scalable data pipelines.",
           }),
           W.jsxs("div", {
             "code-path": "src/sections/Hero.tsx:151:9",
